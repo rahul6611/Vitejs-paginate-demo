@@ -34,13 +34,12 @@ function App() {
     setItemOffset(newOffset);
   };
 
+  console.log("dev branch ")
+
   return (
     <>
        <Items currentItems={currentItems} />
       <ReactPaginate
-
-
-
         breakLabel="..."
         nextLabel="next >"
         onPageChange={handlePageClick}
