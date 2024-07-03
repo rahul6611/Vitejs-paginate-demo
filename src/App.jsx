@@ -38,6 +38,9 @@ function App() {
     <>
        <Items currentItems={currentItems} />
       <ReactPaginate
+
+
+
         breakLabel="..."
         nextLabel="next >"
         onPageChange={handlePageClick}
